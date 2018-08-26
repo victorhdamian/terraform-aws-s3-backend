@@ -1,7 +1,7 @@
   module "aws" {
   source = "../modules/provider_aws"
   public_key_path = "~/.ssh/your_key.pub"
-  key_name = "vyour_key"
+  key_name = "your_key"
   aws_region = "us-east-1"
   aws_access_key = "your aws_access_key"
   aws_secret_key = "your aws_secret_key"
